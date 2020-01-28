@@ -3,10 +3,10 @@
 
 function billingFunction() {
 
-if(document.getElementById("same").checked) {
-
   var shippingName = document.getElementById("shippingName").value;
   var shippingZip = document.getElementById("shippingZip").value; 
+
+  if(document.getElementById("same").checked) {
 
   document.getElementById("billingName").value = shippingName;
   document.getElementById("billingZip").value = shippingZip;
