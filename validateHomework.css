@@ -1,0 +1,48 @@
+
+body {
+	background-color: gold;
+}
+h1 {
+ text-align: center;
+ padding-top: 34px;	
+}
+p {
+ width: 600px;
+ text-align: justify;
+ margin: 0 auto;	
+}
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 24px;
+
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+input:focus{
+  background-color: #E6E6E6;
+}
+#nick{
+  margin-left: 4%;
+  display:none;
+  width: 50%;
+}
+#send {
+  background-color: #2077E7;	
+  font-weight: bold;
+  color: white;
+  border-style: outset;
+  border-color: maroon;
+  width: 150px;
+  height: 24px;
+}
+fieldset {
+ color: black;
+ font-weight: bold;
+}
+label {
+ font-weight: bold;	
+}
